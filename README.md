@@ -6,10 +6,10 @@
    <h3 class="author">Emese Szabó</h3>
 
    <div class="screenshots">
-    <a href="naive.png"><img class="screenshot" src="naive.png" alt="Naive shadows" width="300" height="250"></a>
-    <a href="pcf.png"><img class="screenshot" src="pcf.png" alt="PCF 3x3" width="300" height="250"></a>
-    <a href="vsm.png"><img class="screenshot" src="vsm.png" alt="VSM" width="300" height="250"></a>
-    <a href="lvsm.png"><img class="screenshot" src="lvsm.png" alt="LVSM 16 layers with blur and bias" width="300" height="250"></a>
+    <a href="img/naive.png"><img class="screenshot" src="img/naive.png" alt="Naive shadows" width="300" height="250"></a>
+    <a href="img/pcf.png"><img class="screenshot" src="img/pcf.png" alt="PCF 3x3" width="300" height="250"></a>
+    <a href="img/vsm.png"><img class="screenshot" src="img/vsm.png" alt="VSM" width="300" height="250"></a>
+    <a href="img/lvsm.png"><img class="screenshot" src="img/lvsm.png" alt="LVSM 16 layers with blur and bias" width="300" height="250"></a>
    </div>
 
    <h4>Assignment</h4>
@@ -44,10 +44,10 @@
 	which produces softer shadow edges with less or no light bleeding at all (right below).
 	
    <div class="screenshots">
-    <a href="vsm.png"><img class="screenshot" src="vsm.png" alt="Light bleeding in VSM" width="300" height="250"></a>
-    <a href="lvsm5.png"><img class="screenshot" src="lvsm5.png" alt="Light bleeding eliminated with 5 layer LVSM" width="300" height="250"></a>
-    <a href="lvsm5blur5.png"><img class="screenshot" src="lvsm5blur5.png" alt="LVSM with 5x5 blur" width="300" height="250"></a>
-    <a href="lvsm.png"><img class="screenshot" src="lvsm.png" alt="LVSM 16 layers with blur and bias" width="300" height="250"></a>
+    <a href="img/vsm.png"><img class="screenshot" src="img/vsm.png" alt="Light bleeding in VSM" width="300" height="250"></a>
+    <a href="img/lvsm5.png"><img class="screenshot" src="img/lvsm5.png" alt="Light bleeding eliminated with 5 layer LVSM" width="300" height="250"></a>
+    <a href="img/lvsm5blur5.png"><img class="screenshot" src="img/lvsm5blur5.png" alt="LVSM with 5x5 blur" width="300" height="250"></a>
+    <a href="img/lvsm.png"><img class="screenshot" src="img/lvsm.png" alt="LVSM 16 layers with blur and bias" width="300" height="250"></a>
    </div>
 	The simple Z-buffer shadows have rough edges, they are visually the least appealing. The PCF method generates smooth shadows, however, the whole scene appears 
 	quite blurry. It might be suitable for simulating low quality lights. Although fine-tuning the VSM parameters to achieve a satisfactory result is not as 
@@ -57,8 +57,8 @@
    This error is resolved by introducing a slight overlap (0.02)
    between layers into the depth warping function (smooth shadow, right).
    <div class="screenshots">
-    <a href="layererror.png"><img class="screenshot" src="layererror.png" alt="Layer artefact at boundaries" width="280" height="200"></a>
-    <a href="layeroverlap.png"><img class="screenshot" src="layeroverlap.png" alt="Artefact disappears with overlap between layers (overlap = 0.02)" width="280" height="200"></a>
+    <a href="img/layererror.png"><img class="screenshot" src="img/layererror.png" alt="Layer artefact at boundaries" width="280" height="200"></a>
+    <a href="img/layeroverlap.png"><img class="screenshot" src="img/layeroverlap.png" alt="Artefact disappears with overlap between layers (overlap = 0.02)" width="280" height="200"></a>
    </div>
    <br>
    <br>The table below shows that while the naive method is fast in shadow generation and rendering, the PCF method takes longer to render after a fast 
