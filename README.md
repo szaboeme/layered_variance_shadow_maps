@@ -1,4 +1,3 @@
-## Layered Variance Shadow Maps
 
 <div class="page">
   <div class="left"><div class="right"><div class="main">
