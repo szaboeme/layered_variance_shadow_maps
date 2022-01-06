@@ -1,0 +1,1 @@
+The application needs to be run from this folder configuration to load the texture correctly.
