@@ -2,7 +2,6 @@
 <div class="page">
   <div class="left"><div class="right"><div class="main">
    <h2 class="project">Layered Variance Shadow Maps</h2>
-   <h3 class="author">Emese Szabó</h3>
 
    <div class="screenshots">
     <a href="img/naive.png"><img class="screenshot" src="img/naive.png" alt="Naive shadows" width="300" height="250"></a>
